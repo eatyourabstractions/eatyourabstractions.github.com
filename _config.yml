@@ -3,6 +3,11 @@
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
+collections:
+ code:
+  output: true
+
+
 # Site
 title: NexT
 subtitle:
