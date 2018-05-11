@@ -1,10 +1,10 @@
 ---
-published: false
+published: true
 tags:
   - Algebraic
   - Monoid
   - SemiGroup
-date: 2018-05-11T00:00:00.000Z
+date: {}
 ---
 #Group-Like Structures
 today we're going to explain 2 structures that are more or less like groups, monoids and semigroups.
@@ -113,6 +113,3 @@ List(1,2,3,4).reduce(intAdditionSemigroup.combine)
 ~~~
 
 just as semigroups are a weaker version of the monoids the **Reduce** function is an specialized version of the foldLeft, so a rule of thumb to know when to use a monoid or semigroupd combined with their respective operators is to know in advance if the inpute set should bahave differently for a particular element in the set.
-
-
-
